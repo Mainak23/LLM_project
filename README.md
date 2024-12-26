@@ -38,18 +38,11 @@ cd ollama-vision-invoice-api
 1. Ensure that the Ollama Vision model is running and accessible.
 2. Run the Flask application:
    ```bash
-   python app.py
+   python extraction.py
    ```
-3. The API will be available at `http://127.0.0.1:5000`.
 
-## Directory Structure
-```plaintext
-.
-├── app.py                 # Flask application.
-├── requirements.txt       # Python dependencies.
-├── models/                # Integration code for Ollama Vision.
-├── utils/                 # Helper functions for PDF parsing and data processing.
-└── README.md              # Project documentation.
+
+
 ```
 
 ---
