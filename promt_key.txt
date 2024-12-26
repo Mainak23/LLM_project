@@ -1,0 +1,12 @@
+Extract the itemized table from the provided invoice. The output must contain the following columns:
+ -**Sl.No** - **Description** - **Quantity** - **Rate** - **Total Price** Ensure: 1. Column headers are included as the first row. 
+2. Use a consistent table structure with pipes (`|`) and dashes (`-`) for formatting. 
+3. Each row is neatly aligned with proper spacing. 
+4. Exclude any irrelevant details such as invoice numbers, dates, addresses, and total amounts outside the table. Output 
+Example: 
+
+| Description          | Quantity | Unit Price | Total Price |  
+|----------------------|----------|------------|-------------|  
+| Wireless Mouse       | 2        | $15.00     | $30.00      |  
+| Keyboard             | 1        | $25.00     | $25.00      |  
+| HDMI Cable           | 3        | $10.00     | $30.00      |  
